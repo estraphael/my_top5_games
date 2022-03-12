@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>My top 5 games ever</title>
+        <link rel ="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div class="title">
+            <h1 class="page-title">
+              My top 5 games ever
+            </h1>
+            <img class="foto-controle" src="game-controller.svg" class="page-logo" alt="Controle de videogame">
+        </div>
+        
+    </body>
+</html>
+
+<script>
+
+    var listaJogos = [
+
+        "https://cdn-www.gamerevolution.com/assets/uploads/2016/04/file_12399_resident-evil-2-boxart.jpg",
+        "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+        "https://upload.wikimedia.org/wikipedia/pt/8/82/God_of_War_2018_capa.png",
+        "https://sm.ign.com/ign_br/cover/w/world-of-w/world-of-warcraft-shadowlands_5afe.jpg",
+        "https://upload.wikimedia.org/wikipedia/pt/c/c1/Dmc3.png"
+
+    ];
+
+    for (var i = 0; i < listaJogos.length; i++) {
+    document.write("<img src=" + listaJogos[i] + ">");
+    }
+
+</script>
